@@ -1,0 +1,181 @@
+/**
+Navber Section
+ */
+.navTitle{
+    color: #fff !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.navTitleScroll{
+    color: #0073E6 !important;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.5;
+}
+.navBackground{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: rgba(0, 0, 0, 0);
+}
+.navBackgroundScroll{
+    -webkit-transition: background-color 400ms linear;
+    -moz-transition: background-color 400ms linear;
+    -ms-transition: background-color 400ms linear;
+    -o-transition: background-color 400ms linear;
+    transition: background-color 400ms linear;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgba(0,115,230,.3);
+}
+.navItem{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff !important;
+    text-transform: uppercase;
+}
+.navItemScroll{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    font-family: 'Montserrat', sans-serif;
+    color: #000 !important;
+    text-transform: uppercase;
+}
+/**
+Top Banner Section
+ */
+.topFixedBanner{
+    min-height: 500px;
+    background-image: url("../img/banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+.topBannerOverlay{
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    background: rgba(0,0,0,0.7);
+}
+.topBannerContent{
+    padding-top: 12rem;
+    text-align: center;
+}
+.topBannerTitle{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 1.2;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+}
+.topBannerSubTitle{
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 600;
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+/**
+Servives Section
+ */
+.sectionTitle{
+    font-size: 28px;
+    font-weight: 600;
+    line-height: 34px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0073e6;
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+}
+.serviceCard{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,.2);
+    margin: 5px;
+    padding: 60px 30px;
+    height: 22rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.serviceName{
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 26px;
+    margin-top: 1rem;
+}
+.serviceDesc{
+    font-size: 14px;
+    line-height: 21px;
+    color: #484848;
+}
+
+/*Analysis Section*/
+.text-justify.desc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #484848;
+}
+
+/*Summary Section*/
+.summaryTopBarner{
+    background-image: url('../img/summary-barner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.summeryOverlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    padding: 5% 0%;
+}
+.counterSection.row {
+    margin: 8% 0;
+}
+.counterNumber{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 58px;
+}
+.counterTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+    line-height: 33px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.counterCartTitle{
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #212529;
+    margin-top: 1rem;
+}
+.counterCartSubTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    color: #484848;
+    font-weight: 400;
+}
+.iconBullet{
+    color: #0073E6;
+    margin-right: 4px;
+}
