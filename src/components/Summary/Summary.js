@@ -2,6 +2,8 @@ import React, {Component, Fragment} from 'react';
 import {Card, Col, Container, Row} from "react-bootstrap";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faCheckCircle} from "@fortawesome/free-solid-svg-icons";
+import CountUp from 'react-countup';
+import VisibilitySensor from "react-visibility-sensor";
 
 class Summary extends Component {
     render() {
@@ -14,13 +16,29 @@ class Summary extends Component {
                                 <Col lg={8} md={6} sm={12}>
                                     <Row className="counterSection" >
                                         <Col className="text-white text-center">
-                                            <h1 className="counterNumber">100</h1>
+                                            <h1 className="counterNumber">
+                                                <CountUp start={0} end={100}>
+                                                    {({ countUpRef, start }) => (
+                                                        <VisibilitySensor onChange={start} delayedCall>
+                                                            <span ref={countUpRef} />
+                                                        </VisibilitySensor>
+                                                    )}
+                                                </CountUp>
+                                            </h1>
                                             <h4 className="counterTitle">Total Projects</h4>
                                             <hr className="w-25 bg-white"/>
                                         </Col>
                                         <Col className="text-white text-center">
-                                            <h1 className="counterNumber">100</h1>
-                                            <h4 className="counterTitle">Total Projects</h4>
+                                            <h1 className="counterNumber">
+                                                <CountUp start={0} end={80}>
+                                                    {({ countUpRef, start }) => (
+                                                        <VisibilitySensor onChange={start} delayedCall>
+                                                            <span ref={countUpRef} />
+                                                        </VisibilitySensor>
+                                                    )}
+                                                </CountUp>
+                                            </h1>
+                                            <h4 className="counterTitle">Total Clients</h4>
                                             <hr className="w-25 bg-white"/>
                                         </Col>
                                     </Row>
