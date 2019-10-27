@@ -1,3 +1,5 @@
+/*Default*/
+
 /**
 Navber Section
  */
@@ -205,4 +207,71 @@ Servives Section
     font-size: 16px;
     line-height: 24px;
     color: #fff;
+}
+
+/*Our Corse*/
+.courseImg{
+    width: 100%;
+    margin: 10px 0px;
+}
+.courseTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    color: #212529;
+    margin: 5px;
+    margin-top: 15px;
+}
+
+.courseDesc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #484848;
+    margin: 5px;
+}
+.courseButton{
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: 600;
+    color: #0073E6;
+    text-decoration: none;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+    margin: 5px;
+}
+.courseButton:hover{
+    color: #484848;
+    text-decoration: none;
+}
+
+/*Vidro Card section*/
+.videoCard{
+    margin: 50px auto;
+    box-shadow: 0 0 4px 0 rgba(0,115,230,.2);
+    padding: 6rem 3rem;
+    background: #fff;
+}
+.videoCatdTitle{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    color: #0073E5;
+}
+.viderCardDesc{
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #484848;
+}
+.videoPlayButton{
+    font-size: 48px;
+    color: #0073E6;
+    cursor: pointer;
 }
