@@ -7,6 +7,9 @@ import Summary from "./components/Summary/Summary";
 import RecentProjects from "./components/RecentProjects/RecentProjects";
 import Courses from "./components/Courses/Courses";
 import Video from "./components/Video/video";
+import ClientReview from "./components/ClientReview/ClientReview";
+import Footer from "./components/Footer/Footer";
+import FooterBottom from "./components/Footer/FooterBottom";
 
 function App() {
   return (
@@ -19,6 +22,9 @@ function App() {
       <RecentProjects/>
       <Courses/>
       <Video/>
+      <ClientReview/>
+      <Footer/>
+      <FooterBottom/>
     </Fragment>
   );
 }
