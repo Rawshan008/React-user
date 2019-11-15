@@ -340,3 +340,39 @@ Servives Section
 .copywriteText:hover{
     color: #000;
 }
+
+/*Page Top area*/
+.pageTopFixed{
+    background-image: url("../img/toppage.jpg");
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+.pageTopFixedOverlay{
+    width: 100%;
+    background: rgba(0,0,0,.7);
+}
+.pageTopFixedContent{
+    padding: 5% 0;
+}
+.topPageTitle{
+    margin: 4rem auto;
+    font-size: 28px;
+    font-weight: 600;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*about us*/
+.aboutDescTitle{
+    margin-top: 1rem;
+    font-family: Raleway,sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+}
+.aboutDesc{
+    color: #484848;
+    font-family: Raleway,sans-serif;
+    font-size: 14px;
+}
+
