@@ -15,14 +15,15 @@ class TopNavigation extends Component {
             navTitleLogo: [whiteLogo],
             navBack: "navBackground",
             navItem: "navItem",
+            navVariant: "dark"
         }
     }
 
     onScroll=()=>{
         if(window.scrollY >100){
-            this.setState({navTitleBar: 'navTitleScroll', navTitleLogo: [blueLogo], navBack: "navBackgroundScroll", navItem: "navItemScroll"})
+            this.setState({navVariant: "light",navTitleBar: 'navTitleScroll', navTitleLogo: [blueLogo], navBack: "navBackgroundScroll", navItem: "navItemScroll"})
         }else if(window.scrollY <100){
-            this.setState({navTitleBar: 'navTitle', navTitleLogo: [whiteLogo], navBack: "navBackground", navItem: "navItem",})
+            this.setState({navVariant: "dark", navTitleBar: 'navTitle', navTitleLogo: [whiteLogo], navBack: "navBackground", navItem: "navItem",})
         }
     }
 
@@ -33,7 +34,7 @@ class TopNavigation extends Component {
     render() {
         return (
             <Fragment>
-                <Navbar className={this.state.navBack} fixed="top" collapseOnSelect expand="lg" variant="dark">
+                <Navbar className={this.state.navBack} fixed="top" collapseOnSelect expand="lg" variant={this.state.navVariant}>
                     <Navbar.Brand className={this.state.navTitleBar} href="#home"><img src={this.state.navTitleLogo} alt=""/> Rawshan Home</Navbar.Brand>
                     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
                     <Navbar.Collapse id="responsive-navbar-nav">
