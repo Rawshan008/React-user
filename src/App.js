@@ -1,12 +1,13 @@
 import React, {Fragment} from 'react';
-import AllProjectsPage from "./Pages/AllProjectsPage";
+import { BrowserRouter } from "react-router-dom";
+import AppRoute from "./router/AppRoute";
 
 
 function App() {
   return (
-    <Fragment>
-        <AllProjectsPage/>
-    </Fragment>
+    <BrowserRouter>
+       <AppRoute/>
+    </BrowserRouter>
   );
 }
 

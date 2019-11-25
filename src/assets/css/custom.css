@@ -39,16 +39,18 @@ Navber Section
     font-weight: 400;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
-    color: #fff !important;
+    color: #fff;
     text-transform: uppercase;
+    text-decoration: none !important;
 }
 .navItemScroll{
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
     font-family: 'Montserrat', sans-serif;
-    color: #000 !important;
+    color: #000;
     text-transform: uppercase;
+    text-decoration: none !important;
 }
 /**
 Top Banner Section
@@ -376,3 +378,24 @@ Servives Section
     font-size: 14px;
 }
 
+
+/*Contact area*/
+.contactSection{
+    margin: 50px auto;
+    padding: 3rem auto;
+}
+.contactTitle{
+    margin-top: 1rem;
+    font-size: 22px;
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+}
+
+input:focus, textarea:focus{
+    box-shadow: 0 0 4px 0 rgba(0,115,230,.2) !important;
+}
+label{
+    font-family: Raleway,sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
